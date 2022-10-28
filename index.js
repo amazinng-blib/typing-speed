@@ -4,11 +4,7 @@ const quoteDisplay = document.getElementById("quote-display");
 const quoteInput = document.getElementById("quoteInpute");
 const timerElement = document.getElementById("timer");
 
-// const getRandomquote = async () => {
-//   const data = await fetch(RANDOM_QUOTE_API_URL);
-//   const response = await data.json();
-//   console.log(response);
-// };
+
 
 quoteInput.addEventListener("input", () => {
   const arrayQuote = quoteDisplay.querySelectorAll("span");
